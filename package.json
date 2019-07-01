@@ -1,0 +1,23 @@
+{
+  "name": "flashmap",
+  "version": "1.0.0",
+  "description": "Mashmap filtered version written in js for use with JBrowse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shihabdider/flashmap.git"
+  },
+  "keywords": [
+    "mashmap",
+    "JBrowse"
+  ],
+  "author": "Shihab Dider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shihabdider/flashmap/issues"
+  },
+  "homepage": "https://github.com/shihabdider/flashmap#readme"
+}
