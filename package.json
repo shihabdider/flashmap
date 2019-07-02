@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/shihabdider/flashmap/issues"
   },
-  "homepage": "https://github.com/shihabdider/flashmap#readme"
+  "homepage": "https://github.com/shihabdider/flashmap#readme",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
 }
