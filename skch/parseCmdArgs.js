@@ -83,6 +83,16 @@ const argv = require('yargs')
 
     .argv;
 
+const fs = require("fs");
+function parseFileList(fileToRead){
+    return new Promise((resolve, reject) => {
+     fs.readFile(fileToRead, 'utf8', (err, data) => {
+        if (err) reject(err);
+        const textByLine = data.split("\n").slice(0,-1);
+        return resolve(textByLine);
+     });
+    })
 
+}
 
-
+parseFileList(argv.ref).then(data => console.log(data))
